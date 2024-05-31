@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FHSH_IMS CTF</title>
+    <style>
+        body {
+            background-color: #f0f2f5; /* 设置背景颜色 */
+            font-family: Arial, sans-serif; /* 设置字体 */
+            margin: 0; /* 清除页面默认的 margin */
+            padding: 0; /* 清除页面默认的 padding */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+            width: 40%; 
+            max-width: 600px; 
+            height: auto; 
+            margin: 10px; 
+        }
+        h1 {
+            color: #333;
+            margin-top: 50px; /* 增加标题上方的空白 */
+        }
+        h3 {
+            margin-top: 20px;
+            color: #666;
+        }
+        p {
+            margin-bottom: 10px;
+            color: #777;
+            text-align: left;
+            line-height: 1.5;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            max-width: 150px; /* 设置按钮的最大宽度 */
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>恭喜你成功的到達第二站啦！</h1> 
+        
+        <ul style="text-align: left;">
+            <h3>情境</h3>
+            <p>在圖書館自習到一半的你突然想到，自己今天下午考完試的時候跟同學賭</p>
+            <p>了這次段考的數學成幾，但為了提高在之後在各科賭約中獲勝的機率，你</p>
+            <p>突然想到一個主意...。你記得資訊科技老師是學校線上成績查詢系統的開</p>
+            <p>發者，他應該擁有查看所有學生各科考試分數的最高權限。更有利的是，</p>
+            <p>你之前在班導公布成績時，無意中記錄下了系統的網址。另外你還記得老</p>
+            <p>師曾經不經意透露過，他所有帳號的用戶名都是相同的而密碼都是...</p>
+        </ul>
+        <hr style="width: 90%;">
+        <ul style="text-align: left;">
+            <h3>Free hint</h3>
+            <p>每個懶惰的人都有自己的懶法...忘記刪掉的就算了吧...</p>
+        </ul>
+        
+        <button onclick="redirectToDetailsPage()">開始 CTF</button>
+    </div>
+
+    <script>
+        function redirectToDetailsPage() {
+            window.location.href = 'ctf.html';
+        }
+    </script>
+</body>
+</html>
